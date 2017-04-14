@@ -15,6 +15,7 @@
 		70D564211E9F264100268A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D5641F1E9F264100268A69 /* LaunchScreen.storyboard */; };
 		70D5642C1E9F264100268A69 /* testFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D5642B1E9F264100268A69 /* testFormatTests.m */; };
 		70D564371E9F264100268A69 /* testFormatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D564361E9F264100268A69 /* testFormatUITests.m */; };
+		70D5644A1EA0AA7000268A69 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D564491EA0AA7000268A69 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		70D564321E9F264100268A69 /* testFormatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testFormatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D564361E9F264100268A69 /* testFormatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testFormatUITests.m; sourceTree = "<group>"; };
 		70D564381E9F264100268A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D564481EA0AA7000268A69 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		70D564491EA0AA7000268A69 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		70D564101E9F264100268A69 /* testFormat */ = {
 			isa = PBXGroup;
 			children = (
+				70D564471EA0AA7000268A69 /* Basic */,
 				70D564141E9F264100268A69 /* AppDelegate.h */,
 				70D564151E9F264100268A69 /* AppDelegate.m */,
 				70D564171E9F264100268A69 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				70D564381E9F264100268A69 /* Info.plist */,
 			);
 			path = testFormatUITests;
+			sourceTree = "<group>";
+		};
+		70D564471EA0AA7000268A69 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				70D564481EA0AA7000268A69 /* SecondViewController.h */,
+				70D564491EA0AA7000268A69 /* SecondViewController.m */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D5644A1EA0AA7000268A69 /* SecondViewController.m in Sources */,
 				70D564191E9F264100268A69 /* ViewController.m in Sources */,
 				70D564161E9F264100268A69 /* AppDelegate.m in Sources */,
 				70D564131E9F264100268A69 /* main.m in Sources */,
@@ -507,6 +521,7 @@
 				70D5643D1E9F264100268A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70D5643E1E9F264100268A69 /* Build configuration list for PBXNativeTarget "testFormatTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				70D564401E9F264100268A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70D564411E9F264100268A69 /* Build configuration list for PBXNativeTarget "testFormatUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				70D564431E9F264100268A69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

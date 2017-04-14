@@ -10,20 +10,23 @@
 
 @interface ViewController ()
 
+@property (nonatomic, copy) NSString *sellPrice;
+
+@property (nonatomic, copy) NSString *displayType;
+
+@property (nonatomic, assign) BOOL max;
+
+@property (nonatomic, assign) BOOL circusActFlag;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    if (1) {
+        return;
+    }
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
