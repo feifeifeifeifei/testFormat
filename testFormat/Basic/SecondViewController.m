@@ -22,6 +22,7 @@
     if (1) {
         return;
     }
+    NSString *hahaStr = @"";
 }
 
 - (void)didReceiveMemoryWarning {
