@@ -10,35 +10,21 @@
 
 @interface SecondViewController ()
 
-@property (nonatomic, copy)NSString*ace;
-@property (nonatomic, copy)NSString*bce;
+@property (nonatomic, copy) NSString *ace;
+@property (nonatomic, copy) NSString *bce;
 
 @end
 
 @implementation SecondViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    NSInteger index = 0;
-    switch (index) {
-        case 0:
-            NSLog(@"haha");
-            break;
-        case 1:
-            NSLog(@"haha");
-            break;
-        case 2:
-            NSLog(@"haha");
-            break;
-   
-        default:
-            break;
+    if (1) {
+        return;
     }
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
