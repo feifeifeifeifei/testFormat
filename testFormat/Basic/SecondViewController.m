@@ -1,3 +1,4 @@
+//#pragma Formatter Exempt
 //
 //  SecondViewController.m
 //  testFormat
@@ -10,8 +11,8 @@
 
 @interface SecondViewController ()
 
-@property (nonatomic, copy)NSString*ace;
-@property (nonatomic, copy)NSString*bce;
+@property(nonatomic, copy)NSString*ace;
+@property(nonatomic, copy)NSString*bce;
 
 @end
 
