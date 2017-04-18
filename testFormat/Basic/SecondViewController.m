@@ -18,11 +18,10 @@
 
 @implementation SecondViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    if (1) {
-        return;
-    }
+    if (1) return;
     NSString*hahaStr=@"";
 }
 
