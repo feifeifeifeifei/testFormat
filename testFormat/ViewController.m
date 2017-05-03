@@ -10,20 +10,25 @@
 
 @interface ViewController ()
 
-@property (nonatomic, copy) NSString*sellPrice;
+@property (nonatomic, copy) NSString *sellPrice;
 
-@property (nonatomic, copy) NSString*displayType;
+@property (nonatomic, copy) NSString *displayType;
 
 @property (nonatomic, assign) BOOL max;
 
 @property (nonatomic, assign) BOOL circusActFlag;
 
+@property (nonatomic, copy) NSString *a;
+
+@property (nonatomic, copy) NSString *b;
+
+@property (nonatomic, copy) NSString *c;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     if (1) {
         return;
@@ -32,32 +37,32 @@
     //    stringWithFormat:@"交通%zd",i + 1],@"bgColor":[UIColor whiteColor],@"hideBottomLine":@1,@"totalHeight":@40}];
     int i;
     switch (i) {
-    case 0:
+        case 0:
 
-        break;
-    case 1:
+            break;
+        case 1:
 
-        break;
-    case 2:
+            break;
+        case 2:
 
-        break;
+            break;
 
-    default:
-        break;
+        default:
+            break;
     }
     switch (i) {
-    case 0:
+        case 0:
 
-        break;
-    case 1:
+            break;
+        case 1:
 
-        break;
-    case 2:
+            break;
+        case 2:
 
-        break;
+            break;
 
-    default:
-        break;
+        default:
+            break;
     }
 }
 
