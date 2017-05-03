@@ -24,6 +24,11 @@
 
 @property (nonatomic, copy) NSString *c;
 
+@property (nonatomic,copy)NSString*d;
+
+@property(nonatomic, copy)NSString*e;
+
+@property (nonatomic, copy)NSString*f;
 @end
 
 @implementation ViewController
