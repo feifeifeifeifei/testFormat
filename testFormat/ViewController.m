@@ -10,9 +10,9 @@
 
 @interface ViewController ()
 
-@property (nonatomic, copy) NSString *sellPrice;
+@property (nonatomic, copy) NSString*sellPrice;
 
-@property (nonatomic, copy) NSString *displayType;
+@property (nonatomic, copy) NSString*displayType;
 
 @property (nonatomic, assign) BOOL max;
 
