@@ -45,8 +45,15 @@
         @"totalHeight": @(40)
     }];
 
-    UIViewController *vc = [[LVMediator sharedMediator]LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity ChildQuantity:childQuantity Quantity:quantity TravelType:travelType  ProdPackageGroups:prodPackageGroups CategoryType:categoryType Delegate:self Index:@(index)  RouteInputOrder:nil];
-
+    UIViewController *vc = [[LVMediator sharedMediator] LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity
+                                                                                               ChildQuantity:childQuantity
+                                                                                                    Quantity:quantity
+                                                                                                  TravelType:travelType
+                                                                                           ProdPackageGroups:prodPackageGroups
+                                                                                                CategoryType:categoryType
+                                                                                                    Delegate:self
+                                                                                                       Index:@(index)
+                                                                                             RouteInputOrder:nil];
 }
 
 @end

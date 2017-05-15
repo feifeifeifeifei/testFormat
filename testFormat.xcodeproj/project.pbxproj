@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		708487591EC9924400C08E68 /* DIYTourSelfHelpHotelPresentor.m in Sources */ = {isa = PBXBuildFile; fileRef = 708487581EC9924400C08E68 /* DIYTourSelfHelpHotelPresentor.m */; };
 		70D564131E9F264100268A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D564121E9F264100268A69 /* main.m */; };
 		70D564161E9F264100268A69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D564151E9F264100268A69 /* AppDelegate.m */; };
 		70D564191E9F264100268A69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D564181E9F264100268A69 /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		708487581EC9924400C08E68 /* DIYTourSelfHelpHotelPresentor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYTourSelfHelpHotelPresentor.m; sourceTree = "<group>"; };
 		70D5640E1E9F264100268A69 /* testFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D564121E9F264100268A69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70D564141E9F264100268A69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				70D564151E9F264100268A69 /* AppDelegate.m */,
 				70D564171E9F264100268A69 /* ViewController.h */,
 				70D564181E9F264100268A69 /* ViewController.m */,
+				708487581EC9924400C08E68 /* DIYTourSelfHelpHotelPresentor.m */,
 				70D5641A1E9F264100268A69 /* Main.storyboard */,
 				70D5641D1E9F264100268A69 /* Assets.xcassets */,
 				70D5641F1E9F264100268A69 /* LaunchScreen.storyboard */,
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708487591EC9924400C08E68 /* DIYTourSelfHelpHotelPresentor.m in Sources */,
 				70D5644A1EA0AA7000268A69 /* SecondViewController.m in Sources */,
 				70D564191E9F264100268A69 /* ViewController.m in Sources */,
 				70D564161E9F264100268A69 /* AppDelegate.m in Sources */,
