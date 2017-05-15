@@ -38,8 +38,14 @@
     if (1) {
         return;
     }
-        RouteHeaderViewModel *numberModel = [RouteHeaderViewModel generateRouteHeaderViewModelWithDataSource:@{@"title":[NSString
-        stringWithFormat:@"交通%zd",i + 1],@"bgColor":[UIColor whiteColor],@"hideBottomLine":@1,@"totalHeight":@(40)}];
+    RouteHeaderViewModel *numberModel = [RouteHeaderViewModel generateRouteHeaderViewModelWithDataSource:@{
+        @"title": [NSString stringWithFormat:@"交通%zd", i + 1],
+        @"bgColor": [UIColor whiteColor],
+        @"hideBottomLine": @1,
+        @"totalHeight": @(40)
+    }];
+    
+    UIViewController *vc = [[LVMediator sharedMediator]LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity ChildQuantity:childQuantity Quantity:quantity TravelType:travelType ProdPackageGroups:prodPackageGroups CategoryType:categoryType Delegate:self Index:@(row) RouteInputOrder:self.dataManager.routeInputOrder];
 }
 
 @end
