@@ -52,7 +52,7 @@
                                                                                            ProdPackageGroups:prodPackageGroups
                                                                                                 CategoryType:categoryType
                                                                                                     Delegate:self
-                                                                                                       Index:@(index)
+                                                                                                       Index:@(index);
                                                                                              RouteInputOrder:nil];
 }
 

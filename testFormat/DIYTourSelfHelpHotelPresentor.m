@@ -154,7 +154,15 @@ static CGFloat const FOOT_HEIGHT = 10;
             NSNumber *travelType = @(TravelType_CJY);
             NSNumber *categoryType = @(prodPackageGroup.categoryId);
 
-            UIViewController *vc = [[LVMediator sharedMediator]LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity ChildQuantity:childQuantity Quantity:quantity TravelType:travelType  ProdPackageGroups:prodPackageGroups CategoryType:categoryType Delegate:self Index:@(index)  RouteInputOrder:nil];
+            UIViewController *vc = [[LVMediator sharedMediator] LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity
+                                                                                                       ChildQuantity:childQuantity
+                                                                                                            Quantity:quantity
+                                                                                                          TravelType:travelType
+                                                                                                   ProdPackageGroups:prodPackageGroups
+                                                                                                        CategoryType:categoryType
+                                                                                                            Delegate:self
+                                                                                                               Index:@(index);
+                                                                                                     RouteInputOrder:nil];
 
             [[LVAdapterManager currentNavigationService] pushVC:vc animated:YES];
         }];
