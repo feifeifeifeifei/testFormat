@@ -38,37 +38,22 @@
     if (1) {
         return;
     }
-    //    RouteHeaderViewModel *numberModel = [RouteHeaderViewModel generateRouteHeaderViewModelWithDataSource:@{@"title":[NSString
-    //    stringWithFormat:@"交通%zd",i + 1],@"bgColor":[UIColor whiteColor],@"hideBottomLine":@1,@"totalHeight":@40}];
-    int i;
-    switch (i) {
-        case 0:
+    RouteHeaderViewModel *numberModel = [RouteHeaderViewModel generateRouteHeaderViewModelWithDataSource:@{
+        @"title": [NSString stringWithFormat:@"交通%zd", i + 1],
+        @"bgColor": [UIColor whiteColor],
+        @"hideBottomLine": @1,
+        @"totalHeight": @(40)
+    }];
 
-            break;
-        case 1:
-
-            break;
-        case 2:
-
-            break;
-
-        default:
-            break;
-    }
-    switch (i) {
-        case 0:
-
-            break;
-        case 1:
-
-            break;
-        case 2:
-
-            break;
-
-        default:
-            break;
-    }
+    UIViewController *vc = [[LVMediator sharedMediator] LVMediator_RouteCjyChooseControllerWithAdultQuantity:adultQuantity
+                                                                                               ChildQuantity:childQuantity
+                                                                                                    Quantity:quantity
+                                                                                                  TravelType:travelType
+                                                                                           ProdPackageGroups:prodPackageGroups
+                                                                                                CategoryType:categoryType
+                                                                                                    Delegate:self
+                                                                                                       Index:@(index);
+                                                                                             RouteInputOrder:nil];
 }
 
 @end
