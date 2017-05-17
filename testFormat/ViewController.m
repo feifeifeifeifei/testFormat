@@ -54,6 +54,37 @@
                                                                                                     Delegate:self
                                                                                                        Index:@(index);
                                                                                              RouteInputOrder:nil];
+    //    RouteHeaderViewModel *numberModel = [RouteHeaderViewModel generateRouteHeaderViewModelWithDataSource:@{@"title":[NSString
+    //    stringWithFormat:@"交通%zd",i + 1],@"bgColor":[UIColor whiteColor],@"hideBottomLine":@1,@"totalHeight":@40}];
+    int i;
+    switch (i) {
+    case 0:
+
+        break;
+    case 1:
+
+        break;
+    case 2:
+
+        break;
+
+    default:
+        break;
+    }
+    switch (i) {
+        case 0:
+
+            break;
+        case 1:
+
+            break;
+        case 2:
+
+            break;
+
+        default:
+            break;
+    }
 }
 
 @end
